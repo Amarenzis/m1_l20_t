@@ -8,6 +8,7 @@ namespace DelegateAndCircle
 {
     class Program
     {
+        //Вариант без статического класса - возможно его достаточно
         //создаю собственный delegate
         delegate double RadiusDelegate(double r);
         static void Main(string[] args)
